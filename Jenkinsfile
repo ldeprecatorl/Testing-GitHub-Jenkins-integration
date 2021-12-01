@@ -2,10 +2,11 @@ pipeline {
     agent any
  
     stages {
-        stage('Hello') {
+	stage('Hello from develop branch') {
             steps {
-                echo 'Hello World'
+                echo 'Hello World from develop branch'
             }
         }
+
     }
 }
