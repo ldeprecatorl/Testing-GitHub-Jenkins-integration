@@ -7,6 +7,10 @@ pipeline {
                 echo 'Hello World from develop branch'
             }
         }
-
+	stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
     }
 }
